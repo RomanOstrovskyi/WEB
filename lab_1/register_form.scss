@@ -1,0 +1,181 @@
+.header {
+
+  font-family: 'Poppins', sans-serif;
+
+
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 10%;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: white;
+}
+
+.header div{
+  font-weight: 500;
+  font-size: 18px;
+  color: #2691d1;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header nav{
+  font-weight: 500;
+  font-size: 16px;
+  color: #666666;
+  text-decoration: none;
+}
+
+.nav__links{
+  list-style: none;
+  margin-right: 60px;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.nav__links li a{
+  font-size: 18px;
+  color: #2691d1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #8360c3;
+}
+
+button{
+
+  background: #2691d1;
+  font-size: 18px;
+  color: honeydew;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: #8360c3;
+}
+
+body{
+
+  margin: 0;
+  padding: 0 ;
+
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.center{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+
+}
+
+.center h1{
+  text-align: center;
+  padding: 0 0 20px 0 ;
+  border-bottom: 1px solid silver;
+}
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .textarea{
+  position: relative;
+  border-bottom: 2px solid silver;
+  margin: 30px 0;
+}
+
+.textarea input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.password{
+
+  margin: 0 0 20px 0;
+}
+
+.password1{
+  margin: -5px 0 230px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.password1:hover{
+  text-decoration: underline;
+  color: #2691d1;
+}
+
+.btn{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #2691d1;
+  border-radius: 25px;
+  font-size: 18px;
+  color: honeydew;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.btn:hover{
+  border-color: #2691d1;
+  transition: .5s;
+}
+
+.signup{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+
+.signup a{
+  color: #2691d1;
+  text-decoration: underline;
+}
+
+.signup a:hover{
+  text-decoration: underline;
+}
+
+.Agree{
+  margin-top: -20px;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;;
+}
+
+.Agree input:hover{
+  color: #8360c3;
+}
