@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <div class="form-wrapper">
+    <form class="advertisement-form" [formGroup]="form" (submit)="onSubmit()">
+      <p class="advertisement-header">Create advertisement</p>
+      <mat-form-field appearance="fill">
+        <mat-label>Title</mat-label>
+        <input matInput placeholder="Enter title for new advertisement" formControlName="title"
+               class="add-advertisement-input">
+        <mat-error>{{getError('title')}}</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Content</mat-label>
+        <textarea matInput placeholder="Enter content for new advertisement" formControlName="content"
+                  class="add-advertisement-content"></textarea>
+        <mat-error>{{getError('content')}}</mat-error>
+      </mat-form-field>
+      <p class="server-error" *ngIf="serverError">Something went wrong</p>
+      <button class="submit-button" mat-raised-button color="primary" type="submit">Submit</button>
+    </form>
+  </div>
+</div>

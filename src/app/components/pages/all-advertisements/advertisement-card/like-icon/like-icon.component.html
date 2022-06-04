@@ -1,0 +1,4 @@
+<div (mouseover)="onHover()" (mouseout)="onHoverOut()" (click)="onClick()">
+  <mat-icon *ngIf="!hover" class="like-icon">favorite_border</mat-icon>
+  <mat-icon *ngIf="hover" class="like-icon">favorite</mat-icon>
+</div>

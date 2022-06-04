@@ -1,0 +1,24 @@
+
+<div class="wrapper">
+  <div class="form-wrapper">
+    <form class="login-form" [formGroup]="form" (submit)="onSubmit()">
+      <p class="login-header">Login</p>
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Enter your email" formControlName="email">
+        <mat-error>{{getErrorMessage('email')}}</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Enter your password" type="password" formControlName="password">
+        <mat-error>{{getErrorMessage('password')}}</mat-error>
+      </mat-form-field>
+      <p class="server-error">{{serverError}}</p>
+
+    </form>
+
+    <button class="submit-button" mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  </div>
+
+</div>
+

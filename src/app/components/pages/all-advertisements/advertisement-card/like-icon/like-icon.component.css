@@ -1,0 +1,11 @@
+.like-icon:hover {
+
+}
+
+.like-icon {
+  color: red;
+}
+
+.is_hovered {
+  background-color: #8360c3;
+}

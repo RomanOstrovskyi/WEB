@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #8360c3, #2ebf91);;
+}
+
+.form-wrapper {
+  min-width: 30%;
+  min-height: 60%;
+  background-color: rgb(245, 245, 248);
+  border-radius: 50px / 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  gap: 20px;
+}
+
+.advertisement-header {
+  font-size: 1.265em;
+}
+
+.advertisement-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.server-error {
+  color: red;
+}
+
+.submit-button:hover {
+  background-color: darkblue;
+}
+
+.submit-button {
+  font-family: "Book Antiqua", monospace;
+}
+
+.form {
+  position: absolute;
+}
+
+.add-advertisement-content{
+  max-height: 7em;
+}

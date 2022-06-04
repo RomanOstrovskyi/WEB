@@ -1,0 +1,9 @@
+<div class="content-wrapper">
+  <div class="list-of-all-page-items-wrapper">
+    <div class="list-of-all-page-items">
+      <app-user-card *ngFor="let data of allUsers" [fullName]="getFullName(data.firstname, data.lastname)"
+                     [country]="data.country" [email]="data.email"></app-user-card>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="content-wrapper">
+  <div class="list-of-all-page-items-wrapper">
+    <div class="list-of-all-page-items">
+      <app-advertisement-card
+        *ngFor="let particularAdvertisement of allAdvertisements" [title]="particularAdvertisement.title"
+        [content]="particularAdvertisement.content">
+      </app-advertisement-card>
+    </div>
+  </div>
+</div>
+
